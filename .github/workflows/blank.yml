@@ -1,8 +1,6 @@
 name: CI
 
-on:
-  issue_comment:
-    opened
+on: [issue_comment]
 
 jobs:
   build:
