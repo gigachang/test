@@ -1,7 +1,9 @@
 name: CI
 
-on: [issue_comment]
-
+on:
+  issues:
+    opened
+    
 jobs:
   build:
 
