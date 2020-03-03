@@ -1,7 +1,9 @@
 name: CI
+
 on:
-  issues:
-    - opened
+  push:
+    branches:
+      - master
     
     
 jobs:
