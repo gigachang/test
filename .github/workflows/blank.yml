@@ -1,8 +1,8 @@
 name: CI
-
 on:
   issues:
-    opened
+    - opened
+    
     
 jobs:
   build:
