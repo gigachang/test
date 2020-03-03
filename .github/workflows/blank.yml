@@ -1,6 +1,8 @@
 name: CI
 
-on: [issues]
+on:
+  issues:
+    create
 
 jobs:
   build:
