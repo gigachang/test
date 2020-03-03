@@ -1,8 +1,8 @@
 name: CI
 
 on:
-  issues:
-    create
+  issue_comment:
+    opened
 
 jobs:
   build:
