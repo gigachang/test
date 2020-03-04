@@ -1,2 +1,2 @@
 - labels: [bug]
-  title: "^[bug] .*"
+  title: (?i).*bug.*
