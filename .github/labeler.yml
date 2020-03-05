@@ -4,4 +4,4 @@ numLabels: 40
 # Pass a blank array if no labels are to be excluded.
 # excludeLabels: []
 excludeLabels:
-  - testing
+  - pinned
