@@ -20,7 +20,7 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Dump GitHub context
       env:
-        GITHUB_CONTEXT: ${{ github.event.pull_request.commits_url }}
+        GITHUB_CONTEXT: ${{ github.event.pull_request.commits_url.commit.message }}
       run: echo "$GITHUB_CONTEXT"
 
     - run: curl -o out.json ${{ github.event.pull_request.commits_url }}
